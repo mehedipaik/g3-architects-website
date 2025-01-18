@@ -5,3 +5,43 @@
   font-weight: 400;
   font-style: normal;
 }
+/* shard styles */
+.display-flex{
+    display: flex;  
+}
+.bg-color-light{
+    background-color:rgba(255, 144, 14, 0.1);
+}
+/* dark 2 */
+.text-gray{
+    color: #424242; 
+}
+
+/* dark3 */
+.text-light-gray{
+color: #727272;
+}
+
+/* heaEr style */
+/* navbar style */
+
+.navber{
+    justify-content: space-between;
+
+}
+
+.nav-itmes{
+    list-style: none;
+    margin-right: 20px;
+    justify-content: space-between;
+
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500px ;
+    color:#424242 ;
+}
+.navber, .bannar{
+    max-width: 1440px;
+    margin: 0 auto ;
+}
